@@ -1,2 +1,2 @@
-# hacksandbox_identity_service
-HackSandbox Identity Service
+# HackSandbox Identity Service Platform
+HackSandbox identity service. Used by HackSandbox to authenticate users.

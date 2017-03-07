@@ -16,3 +16,4 @@ Your client application must be able to encrypt and decrypt data using `AES` wit
 * MySQL
 * Support `/dev/random` TRNG. (Linux or macOS, Windows does not support UNIX TRNG).
 * Prefer Intel processor that supports Intel DRNG.
+* It is highly perfered to mount `dev/random` to Docker container's `dev/random` to increase entropy size. And prevent attacks during starup sequence.

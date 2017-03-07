@@ -9,3 +9,10 @@ Your client application must be able to handle RSA. In another word, it must be 
 Your client application must be able to hash strings using `SHA512`, `MD5` and `SHA256`.
 
 Your client application must be able to encrypt and decrypt data using `AES` with `OCB` mode.
+
+### Server Requirements
+
+* PHP 5
+* MySQL
+* Support `/dev/random` TRNG. (Linux or macOS, Windows does not support UNIX TRNG).
+* Prefer Intel processor that supports Intel DRNG.
